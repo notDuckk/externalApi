@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticker Search</title>
+</head>
+<body>
+  <h1>Ticker Search</h1>
+  <h3>ticker id examples:</h3>
+  <ul>
+    <li>id:90 = BTC</li>
+    <li>id:80 = ETH</li>
+    <li>id:518 = USDT</li>
+    <li>id:58 = XRP</li>
+    <li>id:2 = DOGE</li>
+  </ul>
+  <form id="tickerForm">
+    <label for="tickerId">Enter Ticker ID:</label>
+    <input type="text" id="tickerId" name="tickerId" required>
+    <button type="submit">Search</button>
+  </form>
+  <div id="result"></div>
+  <script src="/script.js"></script>
+</body>
+</html>
